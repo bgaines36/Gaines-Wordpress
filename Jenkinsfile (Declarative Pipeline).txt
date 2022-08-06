@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo "git clone https://github.com/bgaines36/Gaines-Wordpress.git"
             }
         }
         stage('Test') {
